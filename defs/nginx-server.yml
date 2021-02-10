@@ -42,7 +42,7 @@ spec:
   - host: cate.srk.bz
     http:
       paths:
-        path: /
+      - path: /
         pathType: Prefix
         backend:
           service:
